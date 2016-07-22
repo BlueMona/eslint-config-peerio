@@ -1,11 +1,11 @@
 # peerio-eslint-config
 
-1. Install package:
+Install package:
 ```
 npm i -D peerio-eslint-config
 ```
 
-2. Create `.eslintrc` file in repository root
+Create `.eslintrc` file in repository root
 ```
 module.exports = {
         extends: ['peerio-eslint-config']
@@ -16,4 +16,5 @@ module.exports = {
 };
 ```
 
-3. Copy `.editorconfig` file to repository root
+Copy `.editorconfig` file to repository root
+
