@@ -1,5 +1,5 @@
 {
-  "name": "peerio-eslint-config",
+  "name": "eslint-config-peerio",
   "version": "1.0.0",
   "description": "Peerio eslint configuration",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://anri-asaturov@github.com/PeerioTechnologies/peerio-eslint-config.git"
+    "url": "git+https://anri-asaturov@github.com/PeerioTechnologies/eslint-config-peerio.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PeerioTechnologies/peerio-eslint-config/issues"
+    "url": "https://github.com/PeerioTechnologies/eslint-config-peerio/issues"
   },
-  "homepage": "https://github.com/PeerioTechnologies/peerio-eslint-config#readme",
+  "homepage": "https://github.com/PeerioTechnologies/eslint-config-peerio#readme",
   "devDependencies": {
     "cz-conventional-changelog": "^1.1.6",
     "standard-version": "^2.4.0"

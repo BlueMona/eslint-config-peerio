@@ -1,14 +1,14 @@
-# peerio-eslint-config
+# eslint-config-peerio
 
 Install package:
 ```
-npm i -D peerio-eslint-config
+npm i -D eslint-config-peerio
 ```
 
 Create `.eslintrc` file in repository root
 ```
 module.exports = {
-        extends: ['peerio-eslint-config']
+        extends: ['eslint-config-peerio']
                     .map(require.resolve),
         rules: {
         // override repository-specific rules here

@@ -1,4 +1,4 @@
-# The original .editorconfig is located in peerio-eslint-config repository.
+# The original .editorconfig is located in eslint-config-peerio repository.
 # With every change here we need to update other repositories.
 #
 # There is no conventional way to automatically sync it at the moment,
