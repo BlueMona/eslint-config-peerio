@@ -1,0 +1,35 @@
+{
+  "name": "peerio-eslint-config",
+  "version": "1.0.0",
+  "description": "Peerio eslint configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://anri-asaturov@github.com/PeerioTechnologies/peerio-eslint-config.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PeerioTechnologies/peerio-eslint-config/issues"
+  },
+  "homepage": "https://github.com/PeerioTechnologies/peerio-eslint-config#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^1.1.6",
+    "standard-version": "^2.4.0"
+  },
+  "dependencies": {
+    "eslint": "3.1.1",
+    "eslint-config-airbnb": "9.0.1",
+    "eslint-plugin-import": "1.11.1",
+    "eslint-plugin-jsx-a11y": "2.0.1",
+    "eslint-plugin-react": "5.2.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
