@@ -1,19 +1,23 @@
 # eslint-config-peerio
 
-Install package:
+### 1. Install package:
 ```
-npm i -D eslint-config-peerio
+npm install --save-dev eslint-config-peerio@x.x.x
 ```
-
-Create `.eslintrc` file in repository root
+### 2. Replace eslint-config-peerio package version in package.json to `*`
+```
+    "eslint-config-peerio": "*"
+```
+### 3. Create `.eslintrc.js` file in repository root
 ```
 module.exports = {
-        extends: ['peerio'].map(require.resolve),
+        extends: ['peerio'],
         rules: {
-        // override repository-specific rules here
+            // All rules should be configured in eslint-config-peerio.
+            // Although this should not normally happen,
+            // you can override repository-specific rules here.
         }
 };
 ```
 
-Copy `.editorconfig` file to repository root
-
+### 4. Copy `.editorconfig` file to repository root
