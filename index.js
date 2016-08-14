@@ -1,9 +1,19 @@
-var OFF = 0, WARN = 1, ERROR = 2;
+var OFF = 0,
+    WARN = 1,
+    ERROR = 2;
 
 module.exports = {
     extends: [
         'eslint-config-airbnb'
     ].map(require.resolve),
+    plugins: [
+        "flowtype"
+    ],
+    settings: {
+        flowtype: {
+            onlyFilesWithFlowAnnotation: false
+        }
+    },
     rules: {
         "indent": [ERROR, 4, { "SwitchCase": 1, "VariableDeclarator": 1 }],
         "one-var-declaration-per-line": OFF,
