@@ -4,7 +4,7 @@
   "description": "Peerio eslint configuration",
   "main": "index.js",
   "scripts": {
-    "release": "standard-version && git push --follow-tags origin master && npm publish",
+    "release": "standard-version",
     "publish": "git push --follow-tags origin master && npm publish"
   },
   "repository": {
