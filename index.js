@@ -28,6 +28,7 @@ module.exports = {
         "max-len": [WARN, 120],
         "quotes": [ERROR, "single", { "avoidEscape": true, "allowTemplateLiterals": true }],
         "semi": [ERROR, "always"],
+        "func-names": OFF,
         "react/jsx-indent": [ERROR, 4],
         "react/jsx-first-prop-new-line": OFF,
         "react/jsx-closing-bracket-location": OFF,
