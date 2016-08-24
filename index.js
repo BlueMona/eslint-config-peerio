@@ -11,7 +11,7 @@ module.exports = {
     ],
     settings: {
         flowtype: {
-            onlyFilesWithFlowAnnotation: false
+            onlyFilesWithFlowAnnotation: true
         }
     },
     rules: {
@@ -36,7 +36,7 @@ module.exports = {
         "flowtype/define-flow-type": ERROR,
         "flowtype/require-parameter-type": ERROR,
         "flowtype/require-return-type": [ERROR, "always", { "annotateUndefined": "never" }],
-        "flowtype/require-valid-file-annotation": ERROR,
+        "flowtype/require-valid-file-annotation": [ERROR, "always"],
         "flowtype/space-after-type-colon": [ERROR, "always"],
         "flowtype/space-before-type-colon": [ERROR, "never"],
         "flowtype/space-before-generic-bracket": [ERROR, "never"],
