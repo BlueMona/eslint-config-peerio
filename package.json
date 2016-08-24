@@ -1,11 +1,11 @@
 {
   "name": "eslint-config-peerio",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "description": "Peerio eslint configuration",
   "main": "index.js",
   "scripts": {
     "release": "standard-version",
-    "publish": "git push --follow-tags origin master && npm publish"
+    "publish": "git push --follow-tags origin master; npm publish"
   },
   "repository": {
     "type": "git",
