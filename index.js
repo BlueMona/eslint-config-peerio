@@ -32,7 +32,19 @@ module.exports = {
         "react/jsx-first-prop-new-line": OFF,
         "react/jsx-closing-bracket-location": OFF,
         "react/jsx-indent-props": OFF,
-        "no-confusing-arrow": WARN
+        "no-confusing-arrow": WARN,
+        "flowtype/define-flow-type": ERROR,
+        "flowtype/require-parameter-type": ERROR,
+        "flowtype/require-return-type": [ERROR, "always", { "annotateUndefined": "never" }],
+        "flowtype/require-valid-file-annotation": ERROR,
+        "flowtype/space-after-type-colon": [ERROR, "always"],
+        "flowtype/space-before-type-colon": [ERROR, "never"],
+        "flowtype/space-before-generic-bracket": [ERROR, "never"],
+        "flowtype/generic-spacing": [ERROR, "never"],
+        "flowtype/union-intersection-spacing": [ERROR, "never"],
+        "flowtype/type-id-match": [ERROR, "^([A-Z][a-z0-9]+)+Type$"],
+        "flowtype/use-flow-type": ERROR,
+        "flowtype/valid-syntax": ERROR
     },
     globals: {
         "describe": false,
