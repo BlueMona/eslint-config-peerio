@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.8.0"></a>
+# [1.8.0](https://github.com/PeerioTechnologies/eslint-config-peerio/compare/v1.7.0...v1.8.0) (2016-08-24)
+
+
+### Features
+
+* **whitespace:** restrict spaces before function parenthesis ([f53eed7](https://github.com/PeerioTechnologies/eslint-config-peerio/commit/f53eed7))
+
+
+
 <a name="1.7.0"></a>
 # [1.7.0](https://github.com/PeerioTechnologies/eslint-config-peerio/compare/v1.6.0...v1.7.0) (2016-08-24)
 
