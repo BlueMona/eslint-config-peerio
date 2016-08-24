@@ -34,7 +34,7 @@ module.exports = {
         "react/jsx-indent-props": OFF,
         "no-confusing-arrow": WARN,
         "flowtype/define-flow-type": ERROR,
-        "flowtype/require-parameter-type": [ERROR, "always", { "excludeArrowFunctions": true }],
+        "flowtype/require-parameter-type": [ERROR, { "excludeArrowFunctions": true }],
         "flowtype/require-return-type": [ERROR, "always", { "excludeArrowFunctions": true, "annotateUndefined": "always" }],
         "flowtype/require-valid-file-annotation": [ERROR, "always"],
         "flowtype/space-after-type-colon": [ERROR, "always"],
