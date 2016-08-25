@@ -23,6 +23,7 @@ module.exports = {
         "no-param-reassign": [ERROR, { "props": false }],
         "comma-dangle": [ERROR, "never"],
         "no-restricted-syntax": OFF,
+        "no-extend-native": OFF,
         "guard-for-in": WARN,
         "no-console": OFF,
         "max-len": [WARN, 120],
