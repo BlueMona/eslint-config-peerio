@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.9.0"></a>
+# [1.9.0](https://github.com/PeerioTechnologies/eslint-config-peerio/compare/v1.8.0...v1.9.0) (2016-08-25)
+
+
+### Features
+
+* **types:** allow extending native types (no-extend-native:OFF) ([2f78f37](https://github.com/PeerioTechnologies/eslint-config-peerio/commit/2f78f37))
+
+
+
 <a name="1.8.0"></a>
 # [1.8.0](https://github.com/PeerioTechnologies/eslint-config-peerio/compare/v1.7.0...v1.8.0) (2016-08-24)
 
