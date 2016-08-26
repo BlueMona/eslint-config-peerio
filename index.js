@@ -20,6 +20,7 @@ module.exports = {
         "one-var": OFF,
         "prefer-const": WARN,
         "no-use-before-define": [ERROR, { "functions": false, "classes": true }],
+        "no-unused-expressions": [ERROR, { "allowShortCircuit": true, "allowTernary": true } ],
         "no-param-reassign": [ERROR, { "props": false }],
         "comma-dangle": [ERROR, "never"],
         "no-restricted-syntax": OFF,
