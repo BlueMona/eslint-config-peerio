@@ -39,7 +39,7 @@ module.exports = {
         "no-confusing-arrow": WARN,
         "flowtype/define-flow-type": ERROR,
         "flowtype/require-parameter-type": [ERROR, { "excludeArrowFunctions": "expressionsOnly" }],
-        "flowtype/require-return-type": [ERROR, "always", { "excludeArrowFunctions": "expressionsOnly", "annotateUndefined": "always" }],
+        "flowtype/require-return-type": [ERROR, "never", { "excludeArrowFunctions": "expressionsOnly", "annotateUndefined": "never" }],
         "flowtype/require-valid-file-annotation": [ERROR, "always"],
         "flowtype/space-after-type-colon": [ERROR, "always"],
         "flowtype/space-before-type-colon": [ERROR, "never"],
