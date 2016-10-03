@@ -27,6 +27,7 @@ module.exports = {
         "no-extend-native": OFF,
         "guard-for-in": WARN,
         "no-console": OFF,
+        "no-continue": OFF,
         "max-len": [WARN, 120],
         "quotes": [ERROR, "single", { "avoidEscape": true, "allowTemplateLiterals": true }],
         "semi": [ERROR, "always"],
