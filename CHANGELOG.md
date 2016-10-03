@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.13.0"></a>
+# [1.13.0](https://github.com/PeerioTechnologies/eslint-config-peerio/compare/v1.12.0...v1.13.0) (2016-10-03)
+
+
+### Features
+
+* **config:** enable continue keyword ([454c551](https://github.com/PeerioTechnologies/eslint-config-peerio/commit/454c551))
+
+
+
 <a name="1.12.0"></a>
 # [1.12.0](https://github.com/PeerioTechnologies/eslint-config-peerio/compare/v1.11.0...v1.12.0) (2016-10-03)
 
