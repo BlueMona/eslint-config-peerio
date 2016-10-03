@@ -37,6 +37,7 @@ module.exports = {
         "react/jsx-closing-bracket-location": OFF,
         "react/jsx-indent-props": OFF,
         "no-confusing-arrow": WARN,
+        "no-underscore-dangle": OFF,
         "flowtype/define-flow-type": ERROR,
         "flowtype/require-parameter-type": [ERROR, { "excludeArrowFunctions": "expressionsOnly" }],
         "flowtype/require-return-type": [ERROR, "never", { "excludeArrowFunctions": "expressionsOnly", "annotateUndefined": "never" }],
