@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.14.0"></a>
+# [1.14.0](https://github.com/PeerioTechnologies/eslint-config-peerio/compare/v1.13.4...v1.14.0) (2016-10-04)
+
+
+### Features
+
+* **config:** noplusplus off ([1bdf646](https://github.com/PeerioTechnologies/eslint-config-peerio/commit/1bdf646))
+
+
+
 <a name="1.13.4"></a>
 ## [1.13.4](https://github.com/PeerioTechnologies/eslint-config-peerio/compare/v1.13.3...v1.13.4) (2016-10-04)
 
