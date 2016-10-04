@@ -28,6 +28,8 @@ module.exports = {
         "no-console": OFF,
         "no-continue": OFF,
         "no-plusplus": OFF,
+        "no-bitwise": OFF,
+        "class-methods-use-this": OFF,
         "guard-for-in": WARN,
         "max-len": [WARN, 120],
         "quotes": [ERROR, "single", { "avoidEscape": true, "allowTemplateLiterals": true }],
