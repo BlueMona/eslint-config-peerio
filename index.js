@@ -15,6 +15,7 @@ module.exports = {
         }
     },
     rules: {
+        "arrow-parens": OFF,
         "indent": [ERROR, 4, { "SwitchCase": 1, "VariableDeclarator": 1 }],
         "one-var-declaration-per-line": OFF,
         "one-var": OFF,
@@ -40,6 +41,8 @@ module.exports = {
         "react/jsx-first-prop-new-line": OFF,
         "react/jsx-closing-bracket-location": OFF,
         "react/jsx-indent-props": OFF,
+        "react/forbid-prop-types": OFF,
+        "react/no-unused-prop-types": OFF,
         "no-confusing-arrow": WARN,
         "no-underscore-dangle": OFF,
         "flowtype/define-flow-type": ERROR,
