@@ -16,6 +16,7 @@ module.exports = {
     },
     rules: {
         "arrow-parens": OFF,
+        "arrow-body-style": OFF,
         "indent": [ERROR, 4, { "SwitchCase": 1, "VariableDeclarator": 1 }],
         "one-var-declaration-per-line": OFF,
         "one-var": OFF,
