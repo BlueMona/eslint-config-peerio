@@ -20,6 +20,7 @@ module.exports = {
         "indent": [ERROR, 4, { "SwitchCase": 1, "VariableDeclarator": 1 }],
         "one-var-declaration-per-line": OFF,
         "one-var": OFF,
+        "no-unused-vars": WARN,
         "comma-dangle": [ERROR, "never"],
         "prefer-const": WARN,
         "no-use-before-define": [ERROR, { "functions": false, "classes": true }],
