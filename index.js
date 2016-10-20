@@ -47,18 +47,6 @@ module.exports = {
         "react/no-unused-prop-types": OFF,
         "no-confusing-arrow": WARN,
         "no-underscore-dangle": OFF,
-        "flowtype/define-flow-type": ERROR,
-        "flowtype/require-parameter-type": [ERROR, { "excludeArrowFunctions": "expressionsOnly" }],
-        "flowtype/require-return-type": [ERROR, "never", { "excludeArrowFunctions": "expressionsOnly", "annotateUndefined": "never" }],
-        "flowtype/require-valid-file-annotation": [ERROR, "always"],
-        "flowtype/space-after-type-colon": [ERROR, "always"],
-        "flowtype/space-before-type-colon": [ERROR, "never"],
-        "flowtype/space-before-generic-bracket": [ERROR, "never"],
-        "flowtype/generic-spacing": [ERROR, "never"],
-        "flowtype/union-intersection-spacing": [ERROR, "never"],
-        "flowtype/type-id-match": [ERROR, "^([A-Z][a-z0-9]+)+Type$"],
-        "flowtype/use-flow-type": ERROR,
-        "flowtype/valid-syntax": ERROR
     },
     globals: {
         "describe": false,
