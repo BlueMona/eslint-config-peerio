@@ -6,13 +6,8 @@ module.exports = {
     extends: [
         'eslint-config-airbnb'
     ].map(require.resolve),
-    plugins: [
-        "flowtype"
-    ],
+    plugins: [],
     settings: {
-        flowtype: {
-            onlyFilesWithFlowAnnotation: true
-        }
     },
     rules: {
         "arrow-parens": OFF,
