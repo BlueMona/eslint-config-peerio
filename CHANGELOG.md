@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.19.0"></a>
+# [1.19.0](https://github.com/PeerioTechnologies/eslint-config-peerio/compare/v1.18.3...v1.19.0) (2016-11-02)
+
+
+### Features
+
+* **guard:** guard-for-in ([9b92420](https://github.com/PeerioTechnologies/eslint-config-peerio/commit/9b92420))
+
+
+
 <a name="1.18.3"></a>
 ## [1.18.3](https://github.com/PeerioTechnologies/eslint-config-peerio/compare/v1.18.2...v1.18.3) (2016-11-02)
 
