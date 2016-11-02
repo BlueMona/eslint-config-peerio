@@ -28,7 +28,7 @@ module.exports = {
         "no-plusplus": OFF,
         "no-bitwise": OFF,
         "class-methods-use-this": OFF,
-        "guard-for-in": WARN,
+        "guard-for-in": OFF,
         "max-len": [WARN, 120],
         "quotes": [ERROR, "single", { "avoidEscape": true, "allowTemplateLiterals": true }],
         "semi": [ERROR, "always"],
