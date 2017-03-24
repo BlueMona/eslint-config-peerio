@@ -1,36 +1,36 @@
 {
-  "name": "eslint-config-peerio",
-  "version": "1.19.2",
-  "description": "Peerio eslint configuration",
-  "main": "index.js",
-  "scripts": {
-    "release": "standard-version",
-    "publish": "git push --follow-tags origin master; npm publish"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://anri-asaturov@github.com/PeerioTechnologies/eslint-config-peerio.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/PeerioTechnologies/eslint-config-peerio/issues"
-  },
-  "homepage": "https://github.com/PeerioTechnologies/eslint-config-peerio#readme",
-  "devDependencies": {
-    "cz-conventional-changelog": "2.0.0",
-    "standard-version": "4.0.0"
-  },
-  "dependencies": {
-    "eslint": "3.17.0",
-    "eslint-config-airbnb": "14.1.0",
-    "eslint-plugin-import": "2.2.0",
-    "eslint-plugin-jsx-a11y": "4.0.0",
-    "eslint-plugin-react": "6.10.0"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+    "name": "eslint-config-peerio",
+    "version": "1.19.2",
+    "description": "Peerio eslint configuration",
+    "main": "index.js",
+    "scripts": {
+        "release": "standard-version",
+        "publish": "git push --follow-tags origin master; npm publish"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/PeerioTechnologies/eslint-config-peerio.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/PeerioTechnologies/eslint-config-peerio/issues"
+    },
+    "homepage": "https://github.com/PeerioTechnologies/eslint-config-peerio#readme",
+    "devDependencies": {
+        "cz-conventional-changelog": "2.0.0",
+        "standard-version": "4.0.0"
+    },
+    "dependencies": {
+        "eslint": "3.18.0",
+        "eslint-config-airbnb": "14.1.0",
+        "eslint-plugin-import": "2.2.0",
+        "eslint-plugin-jsx-a11y": "4.0.0",
+        "eslint-plugin-react": "6.10.3"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
     }
-  }
 }
