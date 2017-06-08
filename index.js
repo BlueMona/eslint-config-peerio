@@ -39,6 +39,7 @@ module.exports = {
         "react/jsx-closing-bracket-location": OFF,
         "react/jsx-indent-props": OFF,
         "react/jsx-max-props-per-line": OFF,
+        "jsx-a11y/no-noninteractive-element-interactions": OFF,
         "react/forbid-prop-types": OFF,
         "react/no-unused-prop-types": OFF,
         "no-confusing-arrow": WARN,
