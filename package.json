@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-peerio",
-  "version": "1.19.7",
+  "version": "1.19.8",
   "description": "Peerio eslint configuration",
   "main": "index.js",
   "scripts": {
