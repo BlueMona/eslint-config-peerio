@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.19.5"></a>
+## [1.19.5](https://github.com/PeerioTechnologies/eslint-config-peerio/compare/v1.19.4...v1.19.5) (2017-06-08)
+
+
+
 <a name="1.19.4"></a>
 ## [1.19.4](https://github.com/PeerioTechnologies/eslint-config-peerio/compare/v1.19.3...v1.19.4) (2017-04-19)
 
