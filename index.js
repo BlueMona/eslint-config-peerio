@@ -42,7 +42,7 @@ module.exports = {
         "jsx-a11y/no-noninteractive-element-interactions": OFF,
         "react/forbid-prop-types": OFF,
         "react/no-unused-prop-types": OFF,
-        "no-confusing-arrow": WARN,
+        "no-confusing-arrow": OFF,
         "no-underscore-dangle": OFF,
     },
     globals: {
