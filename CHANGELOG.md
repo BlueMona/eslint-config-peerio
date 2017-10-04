@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.20.0"></a>
+# [1.20.0](https://github.com/PeerioTechnologies/eslint-config-peerio/compare/v1.19.11...v1.20.0) (2017-10-04)
+
+
+### Bug Fixes
+
+* space-before-function-paren ([de4e1f1](https://github.com/PeerioTechnologies/eslint-config-peerio/commit/de4e1f1))
+
+
+### Features
+
+* no-confusing-arrow OFF ([ae39ca2](https://github.com/PeerioTechnologies/eslint-config-peerio/commit/ae39ca2))
+
+
+
 <a name="1.19.11"></a>
 ## [1.19.11](https://github.com/PeerioTechnologies/eslint-config-peerio/compare/v1.19.10...v1.19.11) (2017-08-22)
 
