@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-peerio",
-  "version": "1.20.0",
+  "version": "1.20.1",
   "description": "Peerio eslint configuration",
   "main": "index.js",
   "scripts": {
@@ -18,15 +18,15 @@
   },
   "homepage": "https://github.com/PeerioTechnologies/eslint-config-peerio#readme",
   "devDependencies": {
-    "cz-conventional-changelog": "2.0.0",
+    "cz-conventional-changelog": "2.1.0",
     "standard-version": "4.2.0"
   },
   "dependencies": {
-    "eslint": "^4.5.0",
-    "eslint-config-airbnb": "^15.1.0",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-jsx-a11y": "^5.1.1",
-    "eslint-plugin-react": "^7.3.0"
+    "eslint": "4.11.0",
+    "eslint-config-airbnb": "16.1.0",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-jsx-a11y": "6.0.2",
+    "eslint-plugin-react": "7.5.0"
   },
   "config": {
     "commitizen": {
