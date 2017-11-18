@@ -41,7 +41,7 @@ module.exports = {
         'no-confusing-arrow': OFF,
         'no-underscore-dangle': OFF,
         'object-curly-newline': [ERROR, { multiline: true }],
-        'function-paren-newline': [ERROR, 'multiline'],
+        'function-paren-newline': OFF,
         'prefer-destructuring': [WARN, { object: true, array: false }]
     },
     globals: {
