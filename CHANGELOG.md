@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.21.0"></a>
+# [1.21.0](https://github.com/PeerioTechnologies/eslint-config-peerio/compare/v1.20.2...v1.21.0) (2017-11-18)
+
+
+### Features
+
+* react-less version ([9630658](https://github.com/PeerioTechnologies/eslint-config-peerio/commit/9630658))
+
+
+
 <a name="1.20.2"></a>
 ## [1.20.2](https://github.com/PeerioTechnologies/eslint-config-peerio/compare/v1.20.1...v1.20.2) (2017-11-18)
 
