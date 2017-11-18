@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.21.2"></a>
+## [1.21.2](https://github.com/PeerioTechnologies/eslint-config-peerio/compare/v1.21.1...v1.21.2) (2017-11-18)
+
+
+### Bug Fixes
+
+* destructuring rule ([e6d41d0](https://github.com/PeerioTechnologies/eslint-config-peerio/commit/e6d41d0))
+
+
+
 <a name="1.21.1"></a>
 ## [1.21.1](https://github.com/PeerioTechnologies/eslint-config-peerio/compare/v1.21.0...v1.21.1) (2017-11-18)
 
