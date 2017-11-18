@@ -39,7 +39,9 @@ module.exports = {
             asyncArrow: 'always'
         }],
         'no-confusing-arrow': OFF,
-        'no-underscore-dangle': OFF
+        'no-underscore-dangle': OFF,
+        'object-curly-newline': [ERROR, { multiline: true }],
+        'function-paren-newline': [ERROR, 'multiline']
     },
     globals: {
         describe: false,
