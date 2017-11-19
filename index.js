@@ -12,9 +12,14 @@ Object.assign(base.rules, {
     "react/jsx-closing-bracket-location": OFF,
     "react/jsx-indent-props": OFF,
     "react/jsx-max-props-per-line": OFF,
-    "jsx-a11y/no-noninteractive-element-interactions": OFF,
     "react/forbid-prop-types": OFF,
-    "react/no-unused-prop-types": OFF
+    "react/no-unused-prop-types": OFF,
+    "react/jsx-closing-tag-location": OFF,
+    "no-restricted-globals": OFF,
+    "jsx-a11y/anchor-is-valid": OFF,
+    "jsx-a11y/no-noninteractive-element-interactions": OFF,
+    "jsx-a11y/click-events-have-key-events": OFF,
+    "jsx-a11y/mouse-events-have-key-events": OFF
 });
 
 module.exports = base;
