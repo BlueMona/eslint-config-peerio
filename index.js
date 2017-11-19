@@ -15,7 +15,6 @@ Object.assign(base.rules, {
     "react/forbid-prop-types": OFF,
     "react/no-unused-prop-types": OFF,
     "react/jsx-closing-tag-location": OFF,
-    "no-restricted-globals": OFF,
     "jsx-a11y/anchor-is-valid": OFF,
     "jsx-a11y/no-noninteractive-element-interactions": OFF,
     "jsx-a11y/click-events-have-key-events": OFF,
