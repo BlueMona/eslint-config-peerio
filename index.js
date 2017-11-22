@@ -1,6 +1,6 @@
-var OFF = 0,
-    WARN = 1,
-    ERROR = 2;
+const OFF = 0;
+const WARN = 1;
+const ERROR = 2;
 
 const base = require('./index.base');
 

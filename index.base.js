@@ -1,6 +1,6 @@
-let OFF = 0,
-    WARN = 1,
-    ERROR = 2;
+const OFF = 0;
+const WARN = 1;
+const ERROR = 2;
 
 module.exports = {
     extends: [
@@ -41,7 +41,18 @@ module.exports = {
         'no-confusing-arrow': OFF,
         'no-underscore-dangle': OFF,
         'function-paren-newline': OFF,
-        'prefer-destructuring': [WARN, { object: true, array: false }],
+        'prefer-destructuring': [WARN, {
+            VariableDeclarator: {
+                array: false,
+                object: true
+            },
+            AssignmentExpression: {
+                array: false,
+                object: false
+            }
+        }, {
+            enforceForRenamedProperties: false
+        }],
         'no-restricted-globals': OFF,
         'object-curly-newline': [
             'error',
